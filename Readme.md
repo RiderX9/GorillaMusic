@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="your-icon-url-here" width="120" height="120" style="border-radius: 30px"/>
+  <img src="https://raw.githubusercontent.com/RiderX9/GorillaMusic/main/icon.png" width="120" height="120" style="border-radius: 30px"/>
   
   # Gorilla Music
   
