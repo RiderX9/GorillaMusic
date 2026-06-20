@@ -33,7 +33,10 @@
 
 ## Screenshots
 
-<!-- Add your screenshots here once you have them -->
+<!-- Add your screenshots here once you have them --> <img width="1080" height="2400" alt="Screenshot_20260620-132804_Gorilla Music" src="https://github.com/user-attachments/assets/f3da4e0e-8597-4193-a425-47adbfb27623" /> <img width="1080" height="2400" alt="Screenshot_20260620-132823_Gorilla Music" src="https://github.com/user-attachments/assets/9ef9f828-5bd8-4196-af85-1096311f0e94" /> <img width="1080" height="2400" alt="Screenshot_20260620-132829_Gorilla Music" src="https://github.com/user-attachments/assets/2d973d09-eeda-433f-ab15-1bed083c82b1" />
+
+
+
 <!-- 
 
 ![Home](screenshots/home.png)
