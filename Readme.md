@@ -33,7 +33,13 @@
 
 ## Screenshots
 
-<!-- Add your screenshots here once you have them --> <img width="1080" height="2400" alt="Screenshot_20260620-132804_Gorilla Music" src="https://github.com/user-attachments/assets/f3da4e0e-8597-4193-a425-47adbfb27623" /> <img width="1080" height="2400" alt="Screenshot_20260620-132823_Gorilla Music" src="https://github.com/user-attachments/assets/9ef9f828-5bd8-4196-af85-1096311f0e94" /> <img width="1080" height="2400" alt="Screenshot_20260620-132829_Gorilla Music" src="https://github.com/user-attachments/assets/2d973d09-eeda-433f-ab15-1bed083c82b1" />
+<!-- Add your screenshots here once you have them --> <img width="1080" height="2400" alt="Screenshot_20260620-132804_Gorilla Music" src="https://github.com/user-attachments/assets/f3da4e0e-8597-4193-a425-47adbfb27623" /> <img width="1080" height="2400" alt="Screenshot_20260620-132823_Gorilla Music" src="https://github.com/user-attachments/assets/9ef9f828-5bd8-4196-af85-1096311f0e94" /> <img width="1080" height="2400" alt="Screenshot_20260620-132829_Gorilla Music" src="https://github.com/user-attachments/assets/2d973d09-eeda-433f-ab15-1bed083c82b1" /> <img width="1080" height="2400" alt="Screenshot_20260620-132900_Gorilla Music" src="https://github.com/user-attachments/assets/b448cd91-e70b-43ba-808e-2490bb4db91c" /> <img width="1080" height="2400" alt="Screenshot_20260620-132905_Gorilla Music" src="https://github.com/user-attachments/assets/38e34af0-309d-4eb9-9cf8-0eab1f208c64" /> <img width="1080" height="2400" alt="Screenshot_20260620-132911_Gorilla Music" src="https://github.com/user-attachments/assets/fa3bdbb8-4566-4fb4-a00b-20dca8da1ba7" /> <img width="1080" height="2400" alt="Screenshot_20260620-132914_Gorilla Music" src="https://github.com/user-attachments/assets/4f1fec5f-568e-40e2-9b00-148994e170a1" /> <img width="1080" height="2400" alt="Screenshot_20260620-132916_Gorilla Music" src="https://github.com/user-attachments/assets/42d698ca-f02d-4ec4-893d-cdc81c2fbe78" /> <img width="1080" height="2400" alt="Screenshot_20260620-132921_Gorilla Music" src="https://github.com/user-attachments/assets/f91e77ce-6cd7-4c98-9f83-4e813da30a42" /> 
+
+
+
+
+
+
 
 
 
