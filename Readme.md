@@ -71,9 +71,9 @@
       <td><img src="https://github.com/user-attachments/assets/f91e77ce-6cd7-4c98-9f83-4e813da30a42" width="200"/></td>
     </tr>
     <tr>
-      <td align="center">Track Info</td>
       <td align="center">Playback</td>
       <td align="center">Audio Settings</td>
+      <td align="center">About</td>
     </tr>
   </table>
 </div>
