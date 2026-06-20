@@ -46,6 +46,16 @@
       <td align="center">Library</td>
     </tr>
     <tr>
+      <td><img src="https://github.com/user-attachments/assets/541e384c-91b3-40a8-8a9c-f49da5148603" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/c57ed7a6-9f96-455d-8e26-bc675dc184c0" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/db83df8b-5ddf-449e-a518-f325260ee87d" width="200"/></td>
+    </tr>
+    <tr>
+      <td align="center">Lyrics</td>
+      <td align="center">Song Info</td>
+      <td align="center">Tag Editor</td>
+    </tr>
+    <tr>
       <td><img src="https://github.com/user-attachments/assets/b448cd91-e70b-43ba-808e-2490bb4db91c" width="200"/></td>
       <td><img src="https://github.com/user-attachments/assets/38e34af0-309d-4eb9-9cf8-0eab1f208c64" width="200"/></td>
       <td><img src="https://github.com/user-attachments/assets/fa3bdbb8-4566-4fb4-a00b-20dca8da1ba7" width="200"/></td>
@@ -62,18 +72,8 @@
     </tr>
     <tr>
       <td align="center">Track Info</td>
+      <td align="center">Playback</td>
       <td align="center">Audio Settings</td>
-      <td align="center">About</td>
-    </tr>
-    <tr>
-      <td><img src="https://github.com/user-attachments/assets/541e384c-91b3-40a8-8a9c-f49da5148603" width="200"/></td>
-      <td><img src="https://github.com/user-attachments/assets/c57ed7a6-9f96-455d-8e26-bc675dc184c0" width="200"/></td>
-      <td><img src="https://github.com/user-attachments/assets/db83df8b-5ddf-449e-a518-f325260ee87d" width="200"/></td>
-    </tr>
-    <tr>
-      <td align="center">Lyrics</td>
-      <td align="center">Song Info</td>
-      <td align="center">Tag Editor</td>
     </tr>
   </table>
 </div>
