@@ -66,9 +66,12 @@
       <td align="center">Audio Settings</td>
     </tr>
     <tr>
-      <td><img src="PASTE_LYRICS_URL_HERE" width="200"/></td>
-      <td><img src="PASTE_TRACKINFO_URL_HERE" width="200"/></td>
-      <td><img src="PASTE_TAGEDITOR_URL_HERE" width="200"/></td>
+      <td><img src="<img width="1080" height="2400" alt="lyrics" src="https://github.com/user-attachments/assets/541e384c-91b3-40a8-8a9c-f49da5148603" />
+" width="200"/></td>
+      <td><img src="<img width="1080" height="2400" alt="track-info" src="https://github.com/user-attachments/assets/c57ed7a6-9f96-455d-8e26-bc675dc184c0" />
+" width="200"/></td>
+      <td><img src="<img width="1080" height="2400" alt="edit-tags" src="https://github.com/user-attachments/assets/db83df8b-5ddf-449e-a518-f325260ee87d" />
+" width="200"/></td>
     </tr>
     <tr>
       <td align="center">Lyrics</td>
