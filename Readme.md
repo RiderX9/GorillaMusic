@@ -41,8 +41,8 @@
       <td><img src="https://github.com/user-attachments/assets/2d973d09-eeda-433f-ab15-1bed083c82b1" width="200"/></td>
     </tr>
     <tr>
-      <td align="center">Home</td>
       <td align="center">Now Playing</td>
+      <td align="center">Home</td>
       <td align="center">Library</td>
     </tr>
     <tr>
@@ -51,8 +51,8 @@
       <td><img src="https://github.com/user-attachments/assets/fa3bdbb8-4566-4fb4-a00b-20dca8da1ba7" width="200"/></td>
     </tr>
     <tr>
-      <td align="center">Lyrics</td>
-      <td align="center">Track Info</td>
+      <td align="center">Search</td>
+      <td align="center">Playlists</td>
       <td align="center">Settings</td>
     </tr>
     <tr>
@@ -61,8 +61,18 @@
       <td><img src="https://github.com/user-attachments/assets/f91e77ce-6cd7-4c98-9f83-4e813da30a42" width="200"/></td>
     </tr>
     <tr>
-      <td align="center">Playlists</td>
-      <td align="center">Search</td>
+      <td align="center">Track Info</td>
+      <td align="center">Queue</td>
+      <td align="center">Audio Settings</td>
+    </tr>
+    <tr>
+      <td><img src="PASTE_LYRICS_URL_HERE" width="200"/></td>
+      <td><img src="PASTE_TRACKINFO_URL_HERE" width="200"/></td>
+      <td><img src="PASTE_TAGEDITOR_URL_HERE" width="200"/></td>
+    </tr>
+    <tr>
+      <td align="center">Lyrics</td>
+      <td align="center">Song Info</td>
       <td align="center">Tag Editor</td>
     </tr>
   </table>
