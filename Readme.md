@@ -33,48 +33,69 @@
 
 ## Screenshots
 
-<!-- Add your screenshots here once you have them --> <img width="1080" height="2400" alt="Screenshot_20260620-132804_Gorilla Music" src="https://github.com/user-attachments/assets/f3da4e0e-8597-4193-a425-47adbfb27623" /> <img width="1080" height="2400" alt="Screenshot_20260620-132823_Gorilla Music" src="https://github.com/user-attachments/assets/9ef9f828-5bd8-4196-af85-1096311f0e94" /> <img width="1080" height="2400" alt="Screenshot_20260620-132829_Gorilla Music" src="https://github.com/user-attachments/assets/2d973d09-eeda-433f-ab15-1bed083c82b1" /> <img width="1080" height="2400" alt="Screenshot_20260620-132900_Gorilla Music" src="https://github.com/user-attachments/assets/b448cd91-e70b-43ba-808e-2490bb4db91c" /> <img width="1080" height="2400" alt="Screenshot_20260620-132905_Gorilla Music" src="https://github.com/user-attachments/assets/38e34af0-309d-4eb9-9cf8-0eab1f208c64" /> <img width="1080" height="2400" alt="Screenshot_20260620-132911_Gorilla Music" src="https://github.com/user-attachments/assets/fa3bdbb8-4566-4fb4-a00b-20dca8da1ba7" /> <img width="1080" height="2400" alt="Screenshot_20260620-132914_Gorilla Music" src="https://github.com/user-attachments/assets/4f1fec5f-568e-40e2-9b00-148994e170a1" /> <img width="1080" height="2400" alt="Screenshot_20260620-132916_Gorilla Music" src="https://github.com/user-attachments/assets/42d698ca-f02d-4ec4-893d-cdc81c2fbe78" /> <img width="1080" height="2400" alt="Screenshot_20260620-132921_Gorilla Music" src="https://github.com/user-attachments/assets/f91e77ce-6cd7-4c98-9f83-4e813da30a42" /> 
-
-
-
-
-
-
-
-
-
-<!-- 
-
-![Home](screenshots/home.png)
-
- -->
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/f3da4e0e-8597-4193-a425-47adbfb27623" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/9ef9f828-5bd8-4196-af85-1096311f0e94" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/2d973d09-eeda-433f-ab15-1bed083c82b1" width="200"/></td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td align="center">Now Playing</td>
+      <td align="center">Library</td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/b448cd91-e70b-43ba-808e-2490bb4db91c" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/38e34af0-309d-4eb9-9cf8-0eab1f208c64" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/fa3bdbb8-4566-4fb4-a00b-20dca8da1ba7" width="200"/></td>
+    </tr>
+    <tr>
+      <td align="center">Lyrics</td>
+      <td align="center">Track Info</td>
+      <td align="center">Settings</td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/4f1fec5f-568e-40e2-9b00-148994e170a1" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/42d698ca-f02d-4ec4-893d-cdc81c2fbe78" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/f91e77ce-6cd7-4c98-9f83-4e813da30a42" width="200"/></td>
+    </tr>
+    <tr>
+      <td align="center">Playlists</td>
+      <td align="center">Search</td>
+      <td align="center">Tag Editor</td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ## Features
 
-- 🦍 **Liquid Glass UI** — Real blur, specular highlights, and depth on every surface
-- 🎨 **Reactive Background** — Animated gradient that pulls colors live from your album art
-- 🎤 **Synced Lyrics** — Auto-fetched from LRCLIB with real-time line highlighting
-- ✏️ **Tag Editor** — Edit title, artist, album, genre, year, and custom lyrics
-- 📊 **Audio Quality Info** — Format, bitrate, and sample rate always visible
-- ❤️ **Favourites** — Heart a song to instantly add it to your Favourites playlist
-- 🔄 **Auto Library Scan** — New files appear automatically via ContentObserver
-- 🎨 **Adaptive Accent Color** — Matches your album art or pick your own
-- 📴 **Fully Offline** — No internet required for playback
-- 🎵 **Formats** — MP3, FLAC, AAC, WAV, M4A, OGG
+- 🦍 Liquid Glass UI — Real blur, specular highlights, and depth on every surface
+- 🎨 Reactive Background — Animated gradient that pulls colors live from your album art
+- 🎤 Synced Lyrics — Auto-fetched from LRCLIB with real-time line highlighting
+- ✏️ Tag Editor — Edit title, artist, album, genre, year, and custom lyrics
+- 📊 Audio Quality Info — Format, bitrate, and sample rate always visible
+- ❤️ Favourites — Heart a song to instantly add it to your Favourites playlist
+- 🔄 Auto Library Scan — New files appear automatically via ContentObserver
+- 🎨 Adaptive Accent Color — Matches your album art or pick your own
+- 📴 Fully Offline — No internet required for playback
+- 🎵 Formats — MP3, FLAC, AAC, WAV, M4A, OGG
 
 ---
 
 ## Tech Stack
 
-- **Language** — Kotlin
-- **UI** — Jetpack Compose
-- **Playback** — Media3 / ExoPlayer
-- **Database** — Room
-- **Image Loading** — Coil
-- **Lyrics** — LRCLIB API
-- **Tag Editing** — JAudioTagger
+| | |
+|---|---|
+| Language | Kotlin |
+| UI | Jetpack Compose |
+| Playback | Media3 / ExoPlayer |
+| Database | Room |
+| Image Loading | Coil |
+| Lyrics | LRCLIB API |
+| Tag Editing | JAudioTagger |
 
 ---
 
@@ -89,7 +110,7 @@
 
 1. Go to [Releases](https://github.com/RiderX9/GorillaMusic/releases/latest)
 2. Download the latest APK
-3. Enable **Install from unknown sources** on your device
+3. Enable Install from unknown sources on your device
 4. Install and enjoy
 
 ---
