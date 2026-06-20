@@ -62,16 +62,13 @@
     </tr>
     <tr>
       <td align="center">Track Info</td>
-      <td align="center">Queue</td>
       <td align="center">Audio Settings</td>
+      <td align="center">About</td>
     </tr>
     <tr>
-      <td><img src="<img width="1080" height="2400" alt="lyrics" src="https://github.com/user-attachments/assets/541e384c-91b3-40a8-8a9c-f49da5148603" />
-" width="200"/></td>
-      <td><img src="<img width="1080" height="2400" alt="track-info" src="https://github.com/user-attachments/assets/c57ed7a6-9f96-455d-8e26-bc675dc184c0" />
-" width="200"/></td>
-      <td><img src="<img width="1080" height="2400" alt="edit-tags" src="https://github.com/user-attachments/assets/db83df8b-5ddf-449e-a518-f325260ee87d" />
-" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/541e384c-91b3-40a8-8a9c-f49da5148603" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/c57ed7a6-9f96-455d-8e26-bc675dc184c0" width="200"/></td>
+      <td><img src="https://github.com/user-attachments/assets/db83df8b-5ddf-449e-a518-f325260ee87d" width="200"/></td>
     </tr>
     <tr>
       <td align="center">Lyrics</td>
@@ -85,16 +82,16 @@
 
 ## Features
 
-- 🦍 Liquid Glass UI — Real blur, specular highlights, and depth on every surface
-- 🎨 Reactive Background — Animated gradient that pulls colors live from your album art
-- 🎤 Synced Lyrics — Auto-fetched from LRCLIB with real-time line highlighting
-- ✏️ Tag Editor — Edit title, artist, album, genre, year, and custom lyrics
-- 📊 Audio Quality Info — Format, bitrate, and sample rate always visible
-- ❤️ Favourites — Heart a song to instantly add it to your Favourites playlist
-- 🔄 Auto Library Scan — New files appear automatically via ContentObserver
-- 🎨 Adaptive Accent Color — Matches your album art or pick your own
-- 📴 Fully Offline — No internet required for playback
-- 🎵 Formats — MP3, FLAC, AAC, WAV, M4A, OGG
+- 🦍 **Liquid Glass UI** — Real blur, specular highlights, and depth on every surface
+- 🎨 **Reactive Background** — Animated gradient that pulls colors live from your album art
+- 🎤 **Synced Lyrics** — Auto-fetched from LRCLIB with real-time line highlighting
+- ✏️ **Tag Editor** — Edit title, artist, album, genre, year, and custom lyrics
+- 📊 **Audio Quality Info** — Format, bitrate, and sample rate always visible
+- ❤️ **Favourites** — Heart a song to instantly add it to your Favourites playlist
+- 🔄 **Auto Library Scan** — New files appear automatically via ContentObserver
+- 🎨 **Adaptive Accent Color** — Matches your album art or pick your own
+- 📴 **Fully Offline** — No internet required for playback
+- 🎵 **Formats** — MP3, FLAC, AAC, WAV, M4A, OGG
 
 ---
 
@@ -102,13 +99,13 @@
 
 | | |
 |---|---|
-| Language | Kotlin |
-| UI | Jetpack Compose |
-| Playback | Media3 / ExoPlayer |
-| Database | Room |
-| Image Loading | Coil |
-| Lyrics | LRCLIB API |
-| Tag Editing | JAudioTagger |
+| **Language** | Kotlin |
+| **UI** | Jetpack Compose |
+| **Playback** | Media3 / ExoPlayer |
+| **Database** | Room |
+| **Image Loading** | Coil |
+| **Lyrics** | LRCLIB API |
+| **Tag Editing** | JAudioTagger |
 
 ---
 
@@ -123,7 +120,7 @@
 
 1. Go to [Releases](https://github.com/RiderX9/GorillaMusic/releases/latest)
 2. Download the latest APK
-3. Enable Install from unknown sources on your device
+3. Enable **Install from unknown sources** on your device
 4. Install and enjoy
 
 ---
