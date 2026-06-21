@@ -91,7 +91,7 @@
 - 🔄 **Auto Library Scan** — New files appear automatically via ContentObserver
 - 🎨 **Adaptive Accent Color** — Matches your album art or pick your own
 - 📴 **Fully Offline** — No internet required for playback
-- 🎵 **Formats** — MP3, FLAC, AAC, WAV, M4A, OGG
+- 🎵 **Formats** — MP3, FLAC, AAC, WAV, M4A, OGG, ALAC
 
 ---
 
