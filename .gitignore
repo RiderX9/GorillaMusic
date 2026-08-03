@@ -31,3 +31,8 @@ captures/
 .cxx/
 .kotlin/
 *.log
+
+# Keystore files
+*.jks
+*.keystore
+keystore.properties
