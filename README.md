@@ -1,70 +1,78 @@
-# GorillaMusic
+<div align="center">
+  <img src="https://raw.githubusercontent.com/RiderX9/GorillaMusic/main/icon.png" width="120" height="120" style="border-radius: 30px"/>
+  
+  # Gorilla Music
+  
+  A premium offline music player for Android with a Liquid Glass UI and deep audio metadata support.
 
-A production-quality offline Android music player built with Kotlin + Jetpack Compose,
-Media3 (ExoPlayer), Room, DataStore, and an Android 12+ Liquid Glass rendering
-system adapted from Echo Music. Clean MVVM + Repository architecture.
+  ![Android](https://img.shields.io/badge/Android-12%2B-green?style=flat-square&logo=android)
+  ![Kotlin](https://img.shields.io/badge/Kotlin-purple?style=flat-square&logo=kotlin)
+  ![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square)
+  ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
-## Opening the project
+  <br />
 
-1. Open the `GorillaMusic` folder in **Android Studio** (Ladybug or newer).
-2. The Gradle **wrapper jar + `gradlew` scripts are included** in the repository.
-   You can build the project directly using `./gradlew` without needing to regenerate them.
-3. Create `local.properties` with your SDK path if Android Studio doesn't (it usually
-   does): `sdk.dir=/path/to/Android/Sdk`
-4. Build & run on a device/emulator running **Android 12 (API 31) or newer**.
-5. Grant the audio permission when prompted, then the library scans automatically.
+  [Download APK](https://github.com/RiderX9/GorillaMusic/releases/latest)
+</div>
 
-## Requirements
+---
 
-- minSdk 31 (Android 12) — required for hardware `RenderEffect` blur.
-- compileSdk 36 / targetSdk 35.
-- JDK 17.
+## Screenshots
 
-## Architecture
+| | | |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/3df5137e-0a12-4c3a-ae12-8109d529856c" width="220" alt="Now Playing" /> | <img src="https://github.com/user-attachments/assets/db590538-bbd8-4c39-9446-41fcf8313a74" width="220" alt="Home" /> | <img src="https://github.com/user-attachments/assets/4cc09661-44db-44fd-954f-e419488839c6" width="220" alt="Library" /> |
+| **Now Playing** | **Home** | **Library** |
+| <img src="https://github.com/user-attachments/assets/53b14b00-c784-468d-9dd0-3dc9d88c4e1a" width="220" alt="Lyrics" /> | <img src="https://github.com/user-attachments/assets/05ba600b-10f3-4462-9175-1acf1552077b" width="220" alt="Browse" /> | <img src="https://github.com/user-attachments/assets/f06d62a9-6cf8-4183-b820-1deceeffefe3" width="220" alt="Tag Editor" /> |
+| **Lyrics** | **Browse** | **Tag Editor** |
 
-```
-MediaPlaybackManager   singleton, owns the MediaController bound to PlaybackService
-PlaybackService        foreground MediaSessionService hosting the real ExoPlayer
-MusicRepository        MediaStore scan, MediaMetadataRetriever/MediaFormat, Room cache
-PlaylistRepository     playlist CRUD + reorder in Room
-SettingsRepository     all settings in DataStore
-AppViewModel           global state: library, playback, palette, settings
-Per-screen ViewModels  Library / Search / Playlists / TrackInfo / Settings
-```
-
-### Design system (`ui/theme/`)
-
-- `LiquidGlassModifier.kt` — Echo Music's configurable blur, vibrancy, lens,
-  highlight, shadow, tint, and adaptive-resolution recipe.
-- `ui/liquidglass/backdrop/` — the modified Backdrop 2.0 renderer vendored by
-  Echo Music.
-- `LiquidGlassSurface.kt` — the shared surface component used by cards, sheets,
-  navigation, and player chrome.
-- `SpringSpec.kt` — all animation specs. The UI layer uses springs only (no
-  `LinearEasing`).
-- `Palette.kt` + `DynamicColors.kt` — album-art colors via the Palette API, propagated
-  app-wide through `CompositionLocal` and animated on track change.
+---
 
 ## Features
 
-- **Home** — recently played (Room) + suggested shuffle, glass section headers.
-- **Library** — Songs / Artists / Albums / Folders tabs, sort, swipe-to-queue.
-- **Now Playing** — palette-driven blurred art background, glass control panel wired to
-  Media3, drag-to-seek, swipe-down to mini player, swipe-up to Track Info.
-- **Track Info sheet** — Format / Bitrate / Sample rate / Channels / Size / Duration /
-  Encoding via `MediaMetadataRetriever` + `MediaFormat`.
-- **Playlists** — create / rename / delete / add / remove / reorder, persisted in Room.
-- **Search** — live debounced search with the expanding glass search bar.
-- **Settings** — Appearance / Playback / Audio / About, every control wired to real
-  state and applied immediately (blur intensity, accent, theme, crossfade, gapless,
-  loudness, resume, rescan, etc.).
+- 🦍 **Liquid Glass UI** — Real blur, specular highlights, and depth on every surface
+- 🎨 **Reactive Background** — Animated gradient that pulls colors live from your album art
+- 🎤 **Synced Lyrics** — Auto-fetched from LRCLIB with real-time line highlighting
+- ✏️ **Tag Editor** — Edit title, artist, album, genre, year, and custom lyrics
+- 📊 **Audio Quality Info** — Format, bitrate, and sample rate always visible
+- ❤️ **Favourites** — Heart a song to instantly add it to your Favourites playlist
+- 🔄 **Auto Library Scan** — New files appear automatically via ContentObserver
+- 🎨 **Adaptive Accent Color** — Matches your album art or pick your own
+- 📴 **Fully Offline** — No internet required for playback
+- 🎵 **Formats** — MP3, FLAC, AAC, WAV, M4A, OGG, ALAC
 
-## Notes on scope
+---
 
-- **Crossfade** is implemented as a real volume ramp across track boundaries in
-  `PlaybackService` (a true overlap-mixing crossfade would need dual players; the volume
-  ramp is honest and audible). **Gapless** toggles `pauseAtEndOfMediaItems`. **Loudness
-  normalization** applies a volume ceiling. All three genuinely change ExoPlayer
-  behavior.
-- Resume restores the last track + position (single-item queue) rather than the full
-  prior queue — simplified deliberately rather than stubbed.
+## Tech Stack
+
+| | |
+|---|---|
+| **Language** | Kotlin |
+| **UI** | Jetpack Compose |
+| **Playback** | Media3 / ExoPlayer |
+| **Database** | Room |
+| **Image Loading** | Coil |
+| **Lyrics** | LRCLIB API |
+| **Tag Editing** | JAudioTagger |
+
+---
+
+## Requirements
+
+- Android 12 or higher
+- Storage permission to scan local music files
+
+---
+
+## Installation
+
+1. Go to [Releases](https://github.com/RiderX9/GorillaMusic/releases/latest)
+2. Download the latest APK
+3. Enable **Install from unknown sources** on your device
+4. Install and enjoy
+
+---
+
+## Developer
+
+Made by [@RiderX9](https://github.com/RiderX9)
