@@ -21,9 +21,9 @@
 
 | | | |
 | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/3df5137e-0a12-4c3a-ae12-8109d529856c" width="220" alt="Now Playing" /> | <img src="https://github.com/user-attachments/assets/db590538-bbd8-4c39-9446-41fcf8313a74" width="220" alt="Home" /> | <img src="https://github.com/user-attachments/assets/4cc09661-44db-44fd-954f-e419488839c6" width="220" alt="Library" /> |
+| <img src="https://github.com/user-attachments/assets/3df5137e-0a12-4c3a-ae12-8109d529856c" width="220" alt="Now Playing" /> | <img src="https://github.com/user-attachments/assets/db590538-bbd8-4c39-9446-41fcf8313a74" width="220" alt="Home" /> | <img src="https://github.com/user-attachments/assets/ecd12f50-2ec4-4256-b406-460ce1f8c936" width="220" alt="Library" /> |
 | **Now Playing** | **Home** | **Library** |
-| <img src="https://github.com/user-attachments/assets/53b14b00-c784-468d-9dd0-3dc9d88c4e1a" width="220" alt="Lyrics" /> | <img src="https://github.com/user-attachments/assets/05ba600b-10f3-4462-9175-1acf1552077b" width="220" alt="Browse" /> | <img src="https://github.com/user-attachments/assets/7bfea65f-2045-4332-95bf-94bb654cd78f" width="220" alt="Settings" /> |
+| <img src="https://github.com/user-attachments/assets/53b14b00-c784-468d-9dd0-3dc9d88c4e1a" width="220" alt="Lyrics" /> | <img src="https://github.com/user-attachments/assets/05ba600b-10f3-4462-9175-1acf1552077b" width="220" alt="Browse" /> | <img src="https://github.com/user-attachments/assets/80a3a7ed-55a6-4623-88e3-aa66422362ff" width="220" alt="Settings" /> |
 | **Lyrics** | **Browse** | **Settings** |
 
 ---
