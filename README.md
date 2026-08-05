@@ -83,7 +83,7 @@ Made by [@RiderX9](https://github.com/RiderX9)
 
 This project is made possible by several incredible open-source libraries and projects. We would like to thank the creators and maintainers of the following:
 
-- **[Echo Music](https://github.com/nyx-in/Echo-Music)** — For the Liquid Glass modifier, adaptive-resolution recipe, and Backdrop 2.0 renderer.
+- **[Echo Music](https://github.com/EchoMusicApp/Echo-Music)** — For the Liquid Glass modifier, adaptive-resolution recipe, and Backdrop 2.0 renderer.
 - **[AndroidX Media3 (ExoPlayer)](https://developer.android.com/media/media3)** — The core media playback engine.
 - **[Jellyfin Media3 FFmpeg Decoder](https://github.com/jellyfin/jellyfin-media3)** — Audio decoding via FFmpeg extension (`org.jellyfin.media3:media3-ffmpeg-decoder`).
 - **[JAudiotagger](https://bitbucket.org/ijabz/jaudiotagger/)** — Audio file metadata tagging and parsing (`net.jthink:jaudiotagger`).
