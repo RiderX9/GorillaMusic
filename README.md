@@ -30,16 +30,19 @@
 
 ## Features
 
-- 🦍 **Liquid Glass UI** — Real blur, specular highlights, and depth on every surface
-- 🎨 **Reactive Background** — Animated gradient that pulls colors live from your album art
-- 🎤 **Synced Lyrics** — Auto-fetched from LRCLIB with real-time line highlighting
-- ✏️ **Tag Editor** — Edit title, artist, album, genre, year, and custom lyrics
-- 📊 **Audio Quality Info** — Format, bitrate, and sample rate always visible
-- ❤️ **Favourites** — Heart a song to instantly add it to your Favourites playlist
-- 🔄 **Auto Library Scan** — New files appear automatically via ContentObserver
-- 🎨 **Adaptive Accent Color** — Matches your album art or pick your own
-- 📴 **Fully Offline** — No internet required for playback
-- 🎵 **Formats** — MP3, FLAC, AAC, WAV, M4A, OGG, ALAC
+- **Liquid Glass UI** — Custom-built interface featuring real-time blur, specular highlights, and structural depth.
+- **Live Artwork Canvas** — Dynamic, animated background canvas that seamlessly integrates with full-screen album art.
+- **Internet Radio** — Built-in support for browsing and streaming live internet radio stations.
+- **Synchronized Lyrics** — Automated lyric fetching via the LRCLIB API with precise real-time line highlighting.
+- **Built-in Equalizer** — Integrated audio equalizer for custom sound profiling and fine-tuned playback control.
+- **Comprehensive Tag Editor** — Directly modify ID3 tags including title, artist, album, genre, year, and embedded custom lyrics.
+- **Landscape Mode** — Full native support for landscape orientation with seamless UI scaling and rotation.
+- **Sleep Timer** — Configurable timer to automatically halt audio playback.
+- **Connected Devices** — Seamless playback management for Bluetooth and external connected audio devices.
+- **Audio Telemetry** — Always-visible display of track format, bitrate, and sample rate.
+- **Automated Library Scanning** — Integration with Android's `ContentObserver` for automatic detection of new local media files.
+- **Adaptive Theming** — System-wide accent colors dynamically adapt to match the active album art palette.
+- **Broad Format Support** — Native playback capabilities for MP3, FLAC, AAC, WAV, M4A, OGG, and ALAC.
 
 ---
 
